@@ -96,6 +96,7 @@ class LoginPageState extends State<LoginPage> {
           contentPadding: EdgeInsets.fromLTRB(20, 10, 20, 10),
           border: OutlineInputBorder(borderRadius: BorderRadius.circular(32))),
     );
+
     final loginButton = Padding(
       padding: EdgeInsets.symmetric(vertical: 10),
       child: ElevatedButton(
@@ -124,6 +125,7 @@ class LoginPageState extends State<LoginPage> {
         ),
       ),
     );
+
     final forgotLabel = TextButton(
       child: Text(
         'Forgot Password?',
